@@ -3,7 +3,7 @@ body {
 }
 
 header {
- background-color: #00b300;
+  background-color: #00b300;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -75,4 +75,3 @@ footer {
 .about-section p {
   text-align: justify;
 }
-
