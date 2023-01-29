@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Green Garden Nursery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script>
+      function buyNow(plantName) {
+        alert("You have selected to buy " + plantName);
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1>Green Garden Nursery</h1>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Welcome to Green Garden Nursery</h2>
+        <p>We specialize in providing high-quality plants, flowers, and gardening supplies to our customers. Browse our selection and let us help you create the garden of your dreams.</p>
+        <a href="about.html" class="button">Learn More</a>
+      </section>
+      <section id="featured-plants">
+        <h2>Featured Plants</h2>
+        <ul>
+          <li>
+            <h3>Lily</h3>
+            <p>The lily is a beautiful and fragrant flower that adds a touch of elegance to any garden.</p>
+            <a href="#" class="button" onclick="buyNow('Lily'); return false;">Buy Now</a>
+          </li>
+          <li>
+            <h3>Sunflower</h3>
+            <p>Sunflowers are a symbol of happiness and positivity. Add some cheer to your garden with our vibrant sunflower selection.</p>
+            <a href="#" class="button" onclick="buyNow('Sunflower'); return false;">Buy Now</a>
+          </li>
+          <li>
+            <h3>Peony</h3>
+            <p>The peony is a lush and romantic flower that adds a touch of romance to any garden.</p>
+            <a href="#" class="button" onclick="buyNow('Peony'); return false;">Buy Now</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2022 Green Garden Nursery</p>
+    </footer>
+  </body>
+</html>
+

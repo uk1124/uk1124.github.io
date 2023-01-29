@@ -1,0 +1,95 @@
+/* Contact Us Page */
+
+/* General Styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Header Styles */
+header {
+background-color: #00b300;
+padding: 20px;
+}
+
+header h1 {
+color: white;
+margin: 0;
+text-align: center;
+}
+
+header nav {
+text-align: center;
+}
+
+header nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+header nav ul li {
+display: inline-block;
+margin-right: 10px;
+}
+
+header nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+padding: 20px;
+}
+
+#contact-form {
+background-color: #f7f7f7;
+padding: 20px;
+}
+
+#contact-form h2 {
+margin: 0;
+text-align: center;
+}
+
+#contact-form form {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#contact-form form label {
+width: 100%;
+margin-bottom: 10px;
+}
+
+#contact-form form input,
+#contact-form form textarea {
+width: 100%;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+#contact-form form input[type="submit"] {
+background-color: #00b300;
+color: white;
+border: none;
+font-size: 18px;
+padding: 10px;
+}
+
+/* Footer Styles */
+footer {
+background-color: #00b300;
+color: white;
+padding: 10px;
+text-align: center;
+}
+
+
+
+
