@@ -9,8 +9,12 @@ padding: 0;
 
 /* Header Styles */
 header {
-background-color: #00b300;
-padding: 20px;
+  background-color: #00b300;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
 }
 
 header h1 {
@@ -89,7 +93,3 @@ color: white;
 padding: 10px;
 text-align: center;
 }
-
-
-
-
